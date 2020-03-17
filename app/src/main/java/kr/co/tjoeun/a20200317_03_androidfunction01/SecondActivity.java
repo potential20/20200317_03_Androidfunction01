@@ -21,6 +21,8 @@ public class SecondActivity extends AppCompatActivity {
 
         Log.d("받아온String",sendMessage);
 
+        binding.messageText.setText(sendMessage);
+
 
     }
 }
